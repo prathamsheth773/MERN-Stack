@@ -1,0 +1,75 @@
+body
+{
+    font-family:roboto;
+}
+.card
+{
+    width:350px;
+    border:1px solid lightgray;
+    border-radius:16px;
+    margin:20px auto;
+}
+.card-img
+{
+    width:100%;
+    border-radius:16px 16px 0px 0px;
+}
+.card-body
+{
+    padding:20px; 
+}
+.btn
+{
+    background-color:tomato;
+    padding:12px 30px;
+    font-size:15px;
+    color:white;
+    border-radius:80px;
+    border:none;
+    cursor:pointer;
+
+}
+.help-btn
+{
+    background-color:rgb(52,255,116);
+    padding:12px 30px;
+    font-size:15px;
+    color:black;
+    border-radius:80px;
+    border:none;
+    cursor:pointer;
+    display:inline;
+    position:fixed;
+    margin: 30px;
+    bottom: 0;
+    right:0;
+    
+}
+.offer
+{
+    background-color:tomato ;
+    color:white;
+    width:350px;
+    border:1px solid lightgray;
+    border-radius:26px;
+    margin:20px auto;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+.card-header
+{
+    position:relative;              
+}
+.ratings
+{
+    position:absolute;
+    font-size:14 px;
+    background-color:white;
+    padding:2px 8px;
+    border-radius:30px;
+    bottom: 0;
+    margin:20px  0 20px 20px;
+    
+}
+  

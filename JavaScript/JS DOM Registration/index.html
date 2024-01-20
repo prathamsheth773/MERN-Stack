@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x800/?reactjs" class="card-img" alt="">
+            <h3>Master the concept of React</h3>
+            <p>Lorem ipsum dolor Nobis soluta, sit, voluptates reprehenderit labore provident enim quis ad eius consequatur nostrum. Labore repudiandae voluptatum quisquam!</p>
+            <input type="text" placeholder="Enter Your Name" id="name">
+            <input type="text" placeholder="Enter Your Email" id="email" onkeyup ="checkEmail()">
+            <button class="btn" onclick="register()">Register Now</button>
+            <p class="d-none" id="alert">The Email id is already used!</p>
+        </div>
+    </div>
+    <div class="user-container" id="userContainer">
+        <div class="user-card">
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

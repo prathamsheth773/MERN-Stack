@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+}
+.title
+{
+    margin: 0;
+    font-size: 56px;
+
+}
+.bg-container{
+    background-image: url(./main-bg.jpg);
+    height: 400px;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -6px -9px 29px -5px rgba(0,0,0,0.76) inset;
+    -webkit-box-shadow: -6px -9px 29px -5px rgba(0,0,0,0.76) inset;
+    -moz-box-shadow: -6px -9px 29px -5px rgba(0,0,0,0.76) inset;
+}
+.content
+{
+    text-align: center;
+    color:rgb(67, 79, 67);
+    width:740px
+}
+.bg-btn
+{
+    padding: 10px 20px;
+    font-size:large;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    background-color:#575a5f;
+    color:white;
+    width:200px;
+    box-shadow: 0 4px 6px rgb(50, 50, 50);
+
+}
+.food-container
+{
+    display: flex;
+    margin: 50px 6%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card
+{
+    width:320px;
+    border-radius: 16px;
+    padding:10px;
+    padding-bottom: 20px;  
+    margin:8px;
+    box-shadow: 0 4px 6px rgb(228,228,228);
+    flex-grow: 1;
+}     
+.card-img
+{
+    width:100%;
+    border-radius: 16px;
+
+}
+.food-desc
+{
+    font-size: 14px;
+}
+.card-header{
+    position:relative
+}
+.ratings
+{
+    position: absolute;
+    bottom: 0;
+    margin: 12px 4px;
+    font-size: 14px;
+    color: green;
+    background-color: white;
+    padding: 2px 8px;
+    border-radius: 16px;
+    font-weight: 700;
+
+
+}
+.star
+{
+    color:gold;
+}
+.best-seller{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:rgb(224, 203, 244);
+    color:blueviolet;
+    padding: 4px 10px;
+    border-radius: 22px;
+}
+.must-try{
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    color:green;
+    background-color:rgb(204, 245, 204);
+    padding:4px 10px;
+    border-radius: 22px;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0px;
+
+}
+.card h3{
+    margin: 0;
+}

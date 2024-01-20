@@ -1,0 +1,48 @@
+*
+{
+    margin:0;
+    width:100%;
+    font-family:"Aspira Webfont", Helvetica, Arial, sans-serif;
+    
+}
+.img
+{
+    position:absolute;
+}
+.p-23
+{
+    padding:13px;
+}
+.contain
+{
+    position:relative;
+    top:0;
+    padding: 80px 120px;
+    color:white;
+    /* margin:20px */
+
+}
+.btn
+{
+    padding: 0px 0px;
+    width:160px;
+    height:45px;
+    border:none;
+    background-color:rgb(235, 113, 0);
+    color:white;
+    border-radius:25px;
+    font-weight:600;
+    font-size:20px;
+    margin:13px;
+
+}
+h1
+{
+    font-size:44px;
+}
+p
+{
+    width:50%;
+    font-size:1.5rem;
+
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    width:640px;
+    margin:50px auto;
+}
+.title
+{
+    font-size:38px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.blog-img
+{
+    width:100%;
+}
+/* breackpoints
+xm (extra small) 0px - 575px
+sm (small) -> 576px // mobile
+md (medium) -> 767px // tablet
+lg (large) -> 992px // laptop
+xl (extra large) -> 1200px  // destop 
+*/ 
+.card
+{
+    width:340px;
+    margin:20px auto;
+    padding:10px;
+    border-radius:16px;
+    border:2px solid #ccc;
+}
+
+.card-img
+{
+    width:100%;
+    border-radius:16px;
+}
+.btn
+{
+    border-radius:40px;
+    border:none;
+    padding:12px 30px;
+    font-size:15px;
+    color:white;
+    background-color:black;
+    cursor:pointer;
+}
+@media(max-width: 576px)
+{
+    .container
+    {
+        width:100%;
+    }
+    .title,h1{
+        font-size:28px;
+        color:red;
+    }
+}
+@media(max-width: 576px)
+{
+    .card
+    {
+        width:auto;
+        border:none;
+        padding:6;
+    }
+    .card-img
+    {
+        width:100%;
+        height:230px;
+        object-fit:cover;
+    }
+}
+@media(min-width:992px)
+{
+    .card
+    {
+        width:600px;
+    }
+    .card-img
+    {
+        width:100%;
+        height:230px;
+        object-fit:cover;
+    }
+    .btn
+    {
+        border-radius:40px;
+        border:none;
+        padding:13px 35px;
+        font-size:24px;
+        color:white;
+        background-color:tomato;
+        cursor:pointer;
+        width:240px
+    }
+}
+@media(max-width:300px)
+{
+    .card-img
+    {
+        display:none;
+    }
+    .btn
+    {
+        width:100%;
+    }
+    .card
+    {
+        text-align:center;
+    }
+}
