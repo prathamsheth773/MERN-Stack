@@ -1,0 +1,24 @@
+.container{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    align-items:center
+}
+.box{
+    background-color:#ddd;
+    border-radius:12px;
+    height:100px;
+    width:160px;
+    margin:10px;
+
+}
+.btn{
+    border:none;
+    color:white;
+    background-color:blueviolet;
+    border-radius:22px;
+    padding:14px 22px;
+    font-size:14px;
+    font-weight:bold;
+
+}
