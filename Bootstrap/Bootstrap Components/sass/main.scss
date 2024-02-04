@@ -2,5 +2,13 @@ $accordion-button-focus-box-shadow:none;
 $accordion-button-active-bg:white;
 $accordion-button-active-color:black;
 $accordion-button-color:gray;
+$accordion-border-radius:16px;
+$carousel-control-transition: opacity .05s ease;
+$dropdown-border-radius:18px;
+$dropdown-box-shadow: 0 .125rem .25rem rgba(black,.075);
+$dropdown-padding-y:.7rem;
+$dropdown-link-hover-color:rgb(0, 95, 190);
+$dropdown-link-hover-bg:rgb(128, 192, 255);
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss'
