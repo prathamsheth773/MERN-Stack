@@ -1,6 +1,8 @@
-export default function FirstComponent(){
+export default function FirstComponent(props){
     return(
-        <h3 className="heading">This is my first component</h3>
-        
+        <div className="card heading">
+            <h3>{props.title}</h3>
+            <p>Here are some details of my component</p>
+       </div>
     )
 } 

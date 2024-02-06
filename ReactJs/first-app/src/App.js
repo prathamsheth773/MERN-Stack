@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to react bootcamp</h1>
-      <FirstComponent/>
+      <FirstComponent title="CSS Masterclass"/>
+      <FirstComponent title="JavaScript Masterclass"/>
+
     </div>
   );
 }
